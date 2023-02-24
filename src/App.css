@@ -1,0 +1,222 @@
+.App {
+  max-width: 1400px;
+ 
+}
+
+.Pokedex{
+    max-width: 1400px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+}
+  
+  .Pokedex__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .PokedexForm__btn {
+    height: 60px;
+    width: 120px;
+    border: none;
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(198, 66, 66);
+  }
+
+  .PokedexForm__input {
+    height: 60px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 1px 4px 12px -4px rgb(186, 183, 183);
+    font-size: 20px;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(157, 154, 154);
+    border:none;
+    outline: none;
+
+  }
+  
+  .PokedexForm {
+    display: flex;
+    align-items:center;
+    max-width: 1100px;
+    width: 100%;
+    margin:  20px 100px;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    
+  }
+    
+  .PokedexForm__select{
+    height: 60px;
+    box-shadow: 1px 4px 12px -4px rgb(186, 183, 183);
+    padding: 10px;
+    font-size: 20px;
+    width: 370px;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border:none;
+    
+  }
+
+
+  .PokedexForm__input:focus{
+    background-color: #ffffff;
+    color: #e4d9d9;
+  }
+
+  .Pokedex__nameWelc {
+    font-size: 20px;
+    color: black;
+  }
+
+  .Pokedex__name {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+  }
+  .pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1400px;
+  }
+  .pagination__page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color:#ababab;
+    border-radius: 25%;
+    background-color: #e10505
+
+    
+  }
+
+  .pagination__pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color:#ababab;
+    border-radius: 25%;
+    background-color: #c20606
+  }
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color:#ababab;
+    border-radius: 25%;
+    background-color: #c01212
+
+  }
+
+  
+  .pagination__page:hover {
+    background-color: #992e2e;
+    border: solid 0.5px #fd0000;
+     border-radius: 27%;
+  }
+
+  .pgination__page:active {
+    background-color: #a84040;
+    border: solid 0.5px #fd0000;
+    border-radius: 25%;
+  }
+
+  .pagination__pages:hover {
+    background-color: #992e2e;
+    border: solid 0.5px #fd0000;
+     border-radius: 27%;
+  }
+
+  .pgination__pages:active {
+    background-color: #a84040;
+    border: solid 0.5px #fd0000;
+    border-radius: 25%;
+  }
+  .page:hover {
+    background-color: #992e2e;
+    border: solid 0.5px #fd0000;
+     border-radius: 27%;
+  }
+
+  .page:active {
+    background-color: #a84040;
+    border: solid 0.5px #fd0000;
+    border-radius: 25%;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .pagination{
+      flex-wrap: wrap;
+    }
+  
+    .pagination__page:hover {
+      background-color: #992e2e;
+    border: solid 0.5px #fd0000;
+       border-radius: 25%;
+    }
+  
+    .pgination__page:active {
+      background-color: #b55a5a;
+    border: solid 0.5px #fd0000;
+      border-radius: 23%;
+    }
+    .page:hover {
+      background-color: #992e2e;
+      border: solid 0.5px #fd0000;
+      border-radius: 25%;
+    }
+  
+    .page:active {
+      background-color: #b55a5a;
+    border: solid 0.5px #fd0000;
+      border-radius: 23%;
+    }
+    .pagination__pages:hover {
+      background-color: #992e2e;
+    border: solid 0.5px #fd0000;
+       border-radius: 25%;
+    }
+  
+    .pgination__pages:active {
+      background-color: #b55a5a;
+    border: solid 0.5px #fd0000;
+      border-radius: 23%;
+    }
+  }
+  
+
+  
